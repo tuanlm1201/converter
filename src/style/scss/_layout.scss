@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    transition: 0.5s ease;
+    font-size: 62.5%;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+  }
+
+  .container{
+    width: 1392px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }

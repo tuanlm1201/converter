@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  box-sizing: border-box;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.input {
+  height: 5.4rem;
+  padding: 1.9rem 3.9rem;
+  outline: none;
+  border-radius: 3.9rem;
+  border: 1px solid #e8e8e8;
+  background: #f4f4f4;
+  font-size: 1.4rem;
+  color: #18171D;
+  line-height: 1.6rem;
+  letter-spacing: 0.1px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  transition: 0.5s ease;
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1392px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header {
+  background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-container .navbar-menu {
+  display: flex;
+}
+.navbar-container .navbar-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+  margin-right: 4.4rem;
+}
+.navbar-container .navbar-menu ul li {
+  padding: 10px;
+}
+.navbar-container .navbar-menu ul li .navbar-link {
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: #fff;
+}
+
+/*# sourceMappingURL=global.css.map */
